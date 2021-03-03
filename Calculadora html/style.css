@@ -1,0 +1,113 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+    
+}
+.contenedor{
+    background: yellow;
+    background: linear-gradient(-90deg,#111111, #222222, #444444)center top;
+    height: 100vh;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc{
+    width: 100%;
+    height: 100%;
+}
+.conten{
+    height: 100%;
+    width: 100%;
+    /*min-height: 60%;
+    min-width: 300px;*/
+    max-width: 440px;
+    max-height: 460px;
+   
+    text-align: center;
+    text-decoration-color: red;
+    background: linear-gradient(-45deg,#5BE4EB, #5BE4EB, #4BE4EB)center top;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 9px 5px 0px 0px #444444;
+    /*display: flex;*/
+    padding: 15px;
+    
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+   /* text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 18px rgba(38,104,127,1),
+		0 0 25px rgba(38,104,127,1);*/
+}
+.calc{
+    width: 100%;
+    height: auto;
+     display: grid;/*indica que este contenedor sera una grid*/
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 110%;
+    
+}
+.salidas{
+   background: #146295;
+}
+#Operacion{
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    
+}
+.resultadobox{
+    
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+}
+#resultado{
+    
+    font-size: 100%;
+}
+
+.botonesbox{
+    width: 100%;
+    height: 100%;
+     display: grid;/*indica que este contenedor sera una grid*/
+    grid-template-columns: 75% 25%;    
+}
+
+
+.botonesbox #calBoton{
+    border-radius: 20%;  
+    
+    background:#146295;
+    color: antiquewhite
+}
+.botones_signos #calBoton{
+    border-radius: 20%;  
+    
+    background:#2D9DE7;
+    color: antiquewhite
+}
+
+.botonesbox #calBoton:active{
+  background:#111111;
+}
+
+
+.botones_nums{
+    
+    width: auto;
+    height: auto;
+    display: grid;/*indica que este contenedor sera una grid*/
+    grid-template-columns: 33% 33% 33%;
+}
+.botones_signos{
+    
+    width: auto;
+    height: auto;
+    display: grid;/*indica que este contenedor sera una grid*/
+    grid-template-columns: 100%;
+}
